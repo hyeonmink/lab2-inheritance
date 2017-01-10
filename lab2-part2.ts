@@ -23,19 +23,19 @@ class SavingsAccount{
     }
 
     checkBalance(){
-        console.log(`Your current balance is $${this.initialBalance}`);
+        console.log(`${this.ownerName}'s current balance is $${this.initialBalance}`);
     }    
 }
 
-var account:SavingsAccount = new SavingsAccount(1000, "Min");
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
+var savings:SavingsAccount = new SavingsAccount(1000, "Min");
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();

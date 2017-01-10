@@ -15,7 +15,7 @@ class CheckingAccount {
     }
 
     checkBalance(){
-        console.log(`Your current balance is $${this.initialBalance}`);
+        console.log(`${this.ownerName}'s current balance is $${this.initialBalance}`);
     }
 }
 

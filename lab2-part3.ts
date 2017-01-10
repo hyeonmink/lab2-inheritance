@@ -16,7 +16,7 @@ class Account {
     }
 
     checkBalance(){
-        console.log(`Your current ${this.accountType} account balance is $${this.initialBalance}`);
+        console.log(`${this.ownerName}'s current ${this.accountType} account balance is $${this.initialBalance}`);
     }
 }
 class Savings extends Account{
