@@ -19,9 +19,9 @@ class CheckingAccount {
     }
 }
 
-let account:CheckingAccount = new CheckingAccount(0, "Min");
-account.checkBalance();
-account.deposit(100);
-account.checkBalance();
-account.withdraw(100);
-account.checkBalance();
+let savings:CheckingAccount = new CheckingAccount(0, "Min");
+savings.checkBalance();
+savings.deposit(100);
+savings.checkBalance();
+savings.withdraw(100);
+savings.checkBalance();
