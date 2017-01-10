@@ -1,4 +1,4 @@
-class Part1 {
+class CheckingAccount {
     private initialBalance: number;
     private ownerName: string;
     constructor(initialBalance: number, ownerName: string ) {
@@ -19,9 +19,9 @@ class Part1 {
     }
 }
 
-let check:Part1 = new Part1(0, "Min");
-check.checkBalance();
-check.deposit(100);
-check.checkBalance();
-check.withdraw(100);
-check.checkBalance();
+let account:CheckingAccount = new CheckingAccount(0, "Min");
+account.checkBalance();
+account.deposit(100);
+account.checkBalance();
+account.withdraw(100);
+account.checkBalance();
